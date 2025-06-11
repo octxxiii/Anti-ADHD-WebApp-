@@ -94,8 +94,8 @@ There will be days of failure. Moments when plans crumble and focus scatters. Bu
 
 1. Clone the repository
 ```bash
-git clone https://github.com/octxxiii/Anti-ADHD.git
-cd Anti-ADHD
+git clone https://github.com/octxxiii/AntiADHD.git
+cd AntiADHD
 ```
 
 2. Install dependencies
@@ -121,12 +121,12 @@ pnpm dev
 
 ### Documentation
 
-- [Technical Design](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/TECHNICAL_DESIGN.md)
-- [Architecture](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ARCHITECTURE.md)
-- [API Documentation](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/API.md)
-- [Implementation Details](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/IMPLEMENTATION.md)
-- [Roadmap](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ROADMAP.md)
-- [Deployment Guide](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/DEPLOYMENT.md)
+- [Technical Design](https://github.com/octxxiii/AntiADHD/blob/main/docs/TECHNICAL_DESIGN.md)
+- [Architecture](https://github.com/octxxiii/AntiADHD/blob/main/docs/ARCHITECTURE.md)
+- [API Documentation](https://github.com/octxxiii/AntiADHD/blob/main/docs/API.md)
+- [Implementation Details](https://github.com/octxxiii/AntiADHD/blob/main/docs/IMPLEMENTATION.md)
+- [Roadmap](https://github.com/octxxiii/AntiADHD/blob/main/docs/ROADMAP.md)
+- [Deployment Guide](https://github.com/octxxiii/AntiADHD/blob/main/docs/DEPLOYMENT.md)
 
 ### Development Info
 
@@ -153,7 +153,7 @@ MIT License
 
 ### Contributing
 
-Bug reports and feature suggestions are welcome through [Issues](https://github.com/octxxiii/Anti-ADHD/issues).
+Bug reports and feature suggestions are welcome through [Issues](https://github.com/octxxiii/AntiADHD/issues).
 
 ### Changelog
 
@@ -262,8 +262,8 @@ ADHD와 함께하는 삶이 얼마나 도전적인지 깊이 이해합니다. �
 
 1. 저장소 클론
 ```bash
-git clone https://github.com/octxxiii/Anti-ADHD.git
-cd Anti-ADHD
+git clone https://github.com/octxxiii/AntiADHD.git
+cd AntiADHD
 ```
 
 2. 의존성 설치
@@ -289,12 +289,12 @@ pnpm dev
 
 ### 상세 문서
 
-- [기술 설계서](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/TECHNICAL_DESIGN.md)
-- [아키텍처 문서](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ARCHITECTURE.md)
-- [API 문서](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/API.md)
-- [구현 상세](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/IMPLEMENTATION.md)
-- [로드맵](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ROADMAP.md)
-- [배포 가이드](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/DEPLOYMENT.md)
+- [기술 설계](https://github.com/octxxiii/AntiADHD/blob/main/docs/TECHNICAL_DESIGN.md)
+- [아키텍처](https://github.com/octxxiii/AntiADHD/blob/main/docs/ARCHITECTURE.md)
+- [API 문서](https://github.com/octxxiii/AntiADHD/blob/main/docs/API.md)
+- [구현 상세](https://github.com/octxxiii/AntiADHD/blob/main/docs/IMPLEMENTATION.md)
+- [로드맵](https://github.com/octxxiii/AntiADHD/blob/main/docs/ROADMAP.md)
+- [배포 가이드](https://github.com/octxxiii/AntiADHD/blob/main/docs/DEPLOYMENT.md)
 
 ### 개발 정보
 
@@ -321,7 +321,7 @@ MIT License
 
 ### 기여하기
 
-버그 리포트나 기능 제안은 [Issues](https://github.com/octxxiii/Anti-ADHD/issues)를 통해 환영합니다.
+버그 리포트나 기능 제안은 [Issues](https://github.com/octxxiii/AntiADHD/issues)를 통해 환영합니다.
 
 ### 업데이트 내역
 
