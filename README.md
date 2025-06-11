@@ -8,26 +8,109 @@
   <img src="docs/assets/app-preview.png" width="600" alt="AntiADHD App Preview">
 </p>
 
-<h1 align="center">🧠 ANTI-ADHD</h1>
-<p align="center"><b>Bringing structure to your thoughts, order to your day.</b></p>
+# 🧠 ANTI-ADHD
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/octxxiii/AntiADHD?style=flat-square"/>
-  <img src="https://img.shields.io/github/languages/top/octxxiii/AntiADHD?style=flat-square"/>
-  <img src="https://img.shields.io/github/last-commit/octxxiii/AntiADHD?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Next.js-15.2.4-blue?logo=next.js"/>
-  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react"/>
-  <img src="https://img.shields.io/badge/Firebase-9.0.0-yellow?logo=firebase"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-3.3.2-38BDF8?logo=tailwindcss"/>
-  <img src="https://img.shields.io/badge/Zustand-4.3.6-000?logo=react"/>
-</p>
+## 🇰🇷 소개
+
+**ANTI-ADHD**는 아이젠하워 매트릭스를 기반으로 한 할 일 관리 도구입니다.  
+ADHD가 있는 사용자를 위해 특별히 설계되었으며, 중요도와 긴급도에 따라 할 일을 효과적으로 관리하도록 도와드립니다.
 
 ---
 
-## 🇺🇸 English Version <a id="english-version"></a>
+### 동기
+> **당신의 혼돈 속에서 질서를, 불확실함 속에서 명확함을 찾아드립니다**
 
-ANTI-ADHD is a modern productivity SaaS tool built for the neurodiverse mind, combining the Eisenhower Matrix, team collaboration, and Pomodoro techniques.
-Designed for individuals and teams who want clarity, focus, and results—especially those with ADHD.
+ADHD와 함께하는 삶이 얼마나 도전적인지 깊이 이해합니다.  
+번쩍이는 생각들이 끊임없이 흘러가고, 시작한 일들은 마무리되지 못한 채 방치되며, 시간은 손가락 사이로 모래처럼 빠져나가는 느낌, 이 모든 것이 당신의 일상이 될 수 있다는 것을 알고 있습니다.
+
+이 프로젝트는 단순한 도구 이상의 의미를 담고 있습니다.  
+이것은 **당신의 잠재력을 온전히 발현시키기 위한 헌신적인 동반자**입니다.
+
+---
+
+### 내가 해결하고자 하는 문제
+- ⚠️ **할 일의 우선순위 결정의 어려움**
+- 🔄 **작업 전환 시 집중력 저하**
+- ⏳ **중요한 일을 미루는 경향**
+- 📊 **과도한 멀티태스킹**
+- ⏰ **시간 관리의 어려움**
+- 📝 **일상적인 계획 수립의 어려움**
+
+---
+
+### 나의 해결책
+아이젠하워 매트릭스를 기반으로 한 이 투두 리스트는 복잡한 세계를 네 가지 명확한 카테고리로 단순화합니다:
+
+| | **긴급함** | **긴급하지 않음** |
+|---|---|---|
+| **중요함** | 즉시 하기 | 계획 세우기 |
+| **중요하지 않음** | 위임하기 | 제거하기 |
+
+이 구분은 산만함으로 고통받는 마음에 평화를 가져다 줍니다.
+
+---
+
+### 나의 약속
+**저는 당신이 계획을 세우고, 실행하고, 완성하는 모든 순간을 응원합니다.**  
+작은 승리의 순간들이 모여 큰 성취가 될 것입니다.  
+당신의 뇌가 작동하는 독특한 방식을 이해하고, 그것을 강점으로 전환시키기 위해 이 여정을 시작했습니다.
+
+실패하는 날들이 있을 것입니다. 계획이 무너지고, 집중력이 흩어지는 순간들도 있을 것입니다.  
+하지만 이것은 여정의 일부일 뿐, 당신의 가치를 정의하지 않습니다.  
+다시 일어나, 매트릭스로 돌아오세요. **저는 항상 여기 있을 것입니다.**
+
+> **본 프로젝트는 1인 개발자로서, ADHD를 가진 모든 분들과 저 자신을 위해 직접 만들었습니다.**
+
+---
+
+## 🇺🇸 Introduction
+
+**ANTI-ADHD** is a task management tool based on the Eisenhower Matrix, designed especially for users with ADHD.  
+It helps you manage your tasks effectively by importance and urgency.
+
+---
+
+### Motivation
+> **Bringing order to your chaos, clarity to your uncertainty.**
+
+I deeply understand how challenging life with ADHD can be.  
+Ideas flash by, tasks are left unfinished, and time slips through your fingers like sand.  
+This project is more than just a tool—it's a dedicated companion to help you realize your full potential.
+
+---
+
+### Problems I Want to Solve
+- ⚠️ **Difficulty prioritizing tasks**
+- 🔄 **Loss of focus when switching tasks**
+- ⏳ **Tendency to procrastinate important work**
+- 📊 **Excessive multitasking**
+- ⏰ **Struggles with time management**
+- 📝 **Difficulty planning daily routines**
+
+---
+
+### My Solution
+This Eisenhower Matrix-based todo list simplifies a complex world into four clear categories:
+
+| | **Urgent** | **Not Urgent** |
+|---|---|---|
+| **Important** | Do Now | Plan |
+| **Not Important** | Delegate | Eliminate |
+
+This structure brings peace to a distracted mind.
+
+---
+
+### My Promise
+**I support you in every moment of planning, doing, and completing.**  
+Small victories add up to great achievements.  
+I started this journey to understand the unique way your brain works—and to turn it into a strength.
+
+There will be days of failure. Plans will fall apart, focus will scatter.  
+But that's just part of the journey—it doesn't define your worth.  
+Get back up, return to the matrix. **I'll always be here.**
+
+> **This project is developed solo, for everyone with ADHD—and for myself.**
 
 ---
 
