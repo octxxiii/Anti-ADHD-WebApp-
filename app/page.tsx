@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import AuthFlow from "./components/auth-flow"
+import AuthFlow from "./components/auth/auth-flow"
 import Dashboard from "./components/dashboard"
 import { ThemeProvider } from "./components/theme-provider"
 

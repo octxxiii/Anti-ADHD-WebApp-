@@ -1,8 +1,8 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "../ui/button"
+import { Input } from "../ui/input"
 import { X, Send, MoreVertical } from "lucide-react"
 
 interface User {
@@ -201,17 +201,15 @@ export default function ChatPanel({ project, updateProject, user, onClose }: Cha
                       </div>
                     )}
                     <div
-                      className={`p-3 rounded-lg ${
-                        isOwnMessage
-                          ? "bg-blue-500 text-white"
-                          : "bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white"
-                      }`}
+                      className={`p-3 rounded-lg ${isOwnMessage
+                        ? "bg-blue-500 text-white"
+                        : "bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white"
+                        }`}
                     >
                       <p className="text-sm">{message.content}</p>
                       <p
-                        className={`text-xs mt-1 ${
-                          isOwnMessage ? "text-blue-100" : "text-gray-500 dark:text-gray-400"
-                        }`}
+                        className={`text-xs mt-1 ${isOwnMessage ? "text-blue-100" : "text-gray-500 dark:text-gray-400"
+                          }`}
                       >
                         {formatTime(message.timestamp)}
                       </p>

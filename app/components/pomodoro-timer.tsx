@@ -1,12 +1,12 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "./ui/card"
+import { Button } from "./ui/button"
 import { Play, Pause, RotateCcw, Settings, X } from "lucide-react"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { Label } from "@/components/ui/label"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog"
+import { Label } from "./ui/label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select"
 
 export default function PomodoroTimer() {
   const [isExpanded, setIsExpanded] = useState(false)
@@ -96,7 +96,7 @@ export default function PomodoroTimer() {
 
   if (!isExpanded) {
     return (
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-8 right-8 z-50">
         <Card
           className="w-16 h-16 cursor-pointer hover:shadow-lg transition-shadow bg-white dark:bg-gray-800 border-2"
           onClick={() => setIsExpanded(true)}
@@ -115,7 +115,7 @@ export default function PomodoroTimer() {
   }
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-8 right-8 z-50">
       <Card className="w-80 bg-white dark:bg-gray-800 shadow-xl border-2">
         <CardContent className="p-6">
           <div className="flex items-center justify-between mb-4">
@@ -203,9 +203,8 @@ export default function PomodoroTimer() {
             </div>
             <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mt-3">
               <div
-                className={`h-2 rounded-full transition-all duration-1000 ${
-                  currentCycle === "work" ? "bg-red-500" : "bg-green-500"
-                }`}
+                className={`h-2 rounded-full transition-all duration-1000 ${currentCycle === "work" ? "bg-red-500" : "bg-green-500"
+                  }`}
                 style={{ width: `${getProgress()}%` }}
               />
             </div>
@@ -214,9 +213,8 @@ export default function PomodoroTimer() {
           <div className="flex justify-center space-x-4 mb-4">
             <Button
               onClick={toggleTimer}
-              className={`${
-                currentCycle === "work" ? "bg-red-500 hover:bg-red-600" : "bg-green-500 hover:bg-green-600"
-              } text-white`}
+              className={`${currentCycle === "work" ? "bg-red-500 hover:bg-red-600" : "bg-green-500 hover:bg-green-600"
+                } text-white`}
             >
               {isRunning ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
             </Button>

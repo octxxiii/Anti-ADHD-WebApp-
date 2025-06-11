@@ -1,10 +1,10 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { Label } from "@/components/ui/label"
+import { Button } from "../ui/button"
+import { Input } from "../ui/input"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog"
+import { Label } from "../ui/label"
 import { Plus, Users } from "lucide-react"
 
 interface User {
@@ -106,9 +106,8 @@ export default function Sidebar({
 
   return (
     <div
-      className={`bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 transition-all duration-300 ${
-        isOpen ? "w-80" : "w-16"
-      }`}
+      className={`bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 transition-all duration-300 ${isOpen ? "w-80" : "w-16"
+        }`}
     >
       <div className="p-4">
         <div className="flex items-center justify-between mb-6">
@@ -150,11 +149,10 @@ export default function Sidebar({
           {projects.map((project) => (
             <div
               key={project.id}
-              className={`p-3 rounded-lg cursor-pointer transition-colors ${
-                currentProjectId === project.id
-                  ? "bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800"
-                  : "hover:bg-gray-50 dark:hover:bg-gray-700"
-              }`}
+              className={`p-3 rounded-lg cursor-pointer transition-colors ${currentProjectId === project.id
+                ? "bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800"
+                : "hover:bg-gray-50 dark:hover:bg-gray-700"
+                }`}
               onClick={() => setCurrentProjectId(project.id)}
             >
               {isOpen ? (

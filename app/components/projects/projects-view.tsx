@@ -1,15 +1,15 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
+import { Button } from "../ui/button"
+import { Progress } from "../ui/progress"
 import { Plus, ListTodo, Target, Zap, CheckCircle2 } from "lucide-react"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog"
+import { Input } from "../ui/input"
+import { Label } from "../ui/label"
+import { Textarea } from "../ui/textarea"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select"
 
 interface Project {
   id: number
@@ -217,9 +217,8 @@ export default function ProjectsView() {
                     className="flex items-center gap-2 p-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
                   >
                     <CheckCircle2
-                      className={`w-4 h-4 cursor-pointer ${
-                        task.completed ? "text-green-300" : "text-white/50 hover:text-green-300"
-                      }`}
+                      className={`w-4 h-4 cursor-pointer ${task.completed ? "text-green-300" : "text-white/50 hover:text-green-300"
+                        }`}
                       onClick={() => toggleTaskCompletion(project.id, task.id)}
                     />
                     <span className={`text-sm ${task.completed ? "line-through opacity-70" : ""}`}>{task.text}</span>

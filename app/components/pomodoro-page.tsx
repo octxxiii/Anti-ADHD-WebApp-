@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Button } from "./ui/button"
+import { Progress } from "./ui/progress"
 import { Timer, Play, Pause, RotateCcw, Coffee, Brain, Zap } from "lucide-react"
 
 export default function PomodoroPage() {
@@ -94,11 +94,10 @@ export default function PomodoroPage() {
               setPomodoroTime(session.duration)
               setIsTimerRunning(false)
             }}
-            className={`p-4 h-auto flex flex-col items-center gap-2 ${
-              currentSession === key
-                ? `bg-gradient-to-r ${session.color} text-white`
-                : "bg-white/20 text-white hover:bg-white/30"
-            } border-0 backdrop-blur-sm`}
+            className={`p-4 h-auto flex flex-col items-center gap-2 ${currentSession === key
+              ? `bg-gradient-to-r ${session.color} text-white`
+              : "bg-white/20 text-white hover:bg-white/30"
+              } border-0 backdrop-blur-sm`}
           >
             <span className="text-2xl">{session.emoji}</span>
             <span className="text-sm font-medium">{session.label}</span>

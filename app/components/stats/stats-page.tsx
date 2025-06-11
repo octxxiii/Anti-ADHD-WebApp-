@@ -1,7 +1,8 @@
 "use client"
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
+import { Button } from "../ui/button"
+import { Progress } from "../ui/progress"
 import { BarChart3, TrendingUp, Target, Star, Zap, Brain, Trophy } from "lucide-react"
 
 export default function StatsPage() {
@@ -158,11 +159,10 @@ export default function StatsPage() {
             {achievements.map((achievement, index) => (
               <div
                 key={index}
-                className={`p-4 rounded-lg text-center transition-all duration-300 ${
-                  achievement.unlocked
-                    ? "bg-gradient-to-br from-yellow-400 to-orange-500 shadow-lg"
-                    : "bg-white/10 opacity-50"
-                }`}
+                className={`p-4 rounded-lg text-center transition-all duration-300 ${achievement.unlocked
+                  ? "bg-gradient-to-br from-yellow-400 to-orange-500 shadow-lg"
+                  : "bg-white/10 opacity-50"
+                  }`}
               >
                 <div className="text-3xl mb-2">{achievement.icon}</div>
                 <div className="font-semibold text-sm mb-1">{achievement.title}</div>

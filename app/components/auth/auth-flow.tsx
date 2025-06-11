@@ -3,12 +3,13 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Separator } from "@/components/ui/separator"
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
+import { Button } from "../ui/button"
+import { Input } from "../ui/input"
+import { Label } from "../ui/label"
+import { Separator } from "../ui/separator"
 import { Eye, EyeOff, Mail, Lock, Chrome, User } from "lucide-react"
+import { signUp, signIn, signInWithGoogle } from "../../../lib/services/auth"
 
 interface AuthUser {
   id: string
@@ -37,36 +38,59 @@ export default function AuthFlow({ onLogin, onAnonymousMode }: AuthFlowProps) {
     e.preventDefault()
     setIsLoading(true)
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    try {
+      if (mode === "signup") {
+        if (formData.password !== formData.confirmPassword) {
+          alert("비밀번호가 일치하지 않습니다!")
+          setIsLoading(false)
+          return
+        }
 
-    if (mode === "signup" && formData.password !== formData.confirmPassword) {
-      alert("Passwords don't match!")
+        const userCredential = await signUp(
+          formData.email,
+          formData.password,
+          formData.name
+        )
+
+        onLogin({
+          id: userCredential.user.uid,
+          email: userCredential.user.email!,
+          name: formData.name,
+          avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${formData.email}`,
+        })
+      } else {
+        const userCredential = await signIn(formData.email, formData.password)
+
+        onLogin({
+          id: userCredential.user.uid,
+          email: userCredential.user.email!,
+          name: userCredential.user.displayName || "User",
+          avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${formData.email}`,
+        })
+      }
+    } catch (error: any) {
+      alert(error.message || "인증에 실패했습니다.")
+    } finally {
       setIsLoading(false)
-      return
     }
-
-    // Mock successful authentication
-    const user: AuthUser = {
-      id: "1",
-      email: formData.email,
-      name: mode === "signup" ? formData.name : "John Doe",
-      avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${formData.email}`,
-    }
-
-    onLogin(user)
-    setIsLoading(false)
   }
 
-  const handleGoogleSignIn = () => {
-    // Mock Google sign-in
-    const user: AuthUser = {
-      id: "google-1",
-      email: "user@gmail.com",
-      name: "Google User",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=google",
+  const handleGoogleSignIn = async () => {
+    try {
+      setIsLoading(true)
+      const userCredential = await signInWithGoogle()
+
+      onLogin({
+        id: userCredential.user.uid,
+        email: userCredential.user.email!,
+        name: userCredential.user.displayName || "Google User",
+        avatar: userCredential.user.photoURL || `https://api.dicebear.com/7.x/avataaars/svg?seed=${userCredential.user.email}`,
+      })
+    } catch (error: any) {
+      alert(error.message || "Google 로그인에 실패했습니다.")
+    } finally {
+      setIsLoading(false)
     }
-    onLogin(user)
   }
 
   return (
