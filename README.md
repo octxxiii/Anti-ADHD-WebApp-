@@ -121,12 +121,12 @@ pnpm dev
 
 ### Documentation
 
-- [Technical Design](docs/TECHNICAL_DESIGN.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [API Documentation](docs/API.md)
-- [Implementation Details](docs/IMPLEMENTATION.md)
-- [Roadmap](docs/ROADMAP.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
+- [Technical Design](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/TECHNICAL_DESIGN.md)
+- [Architecture](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ARCHITECTURE.md)
+- [API Documentation](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/API.md)
+- [Implementation Details](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/IMPLEMENTATION.md)
+- [Roadmap](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ROADMAP.md)
+- [Deployment Guide](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/DEPLOYMENT.md)
 
 ### Development Info
 
@@ -289,12 +289,12 @@ pnpm dev
 
 ### 상세 문서
 
-- [기술 설계서](docs/TECHNICAL_DESIGN.md)
-- [아키텍처 문서](docs/ARCHITECTURE.md)
-- [API 문서](docs/API.md)
-- [구현 상세](docs/IMPLEMENTATION.md)
-- [로드맵](docs/ROADMAP.md)
-- [배포 가이드](docs/DEPLOYMENT.md)
+- [기술 설계서](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/TECHNICAL_DESIGN.md)
+- [아키텍처 문서](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ARCHITECTURE.md)
+- [API 문서](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/API.md)
+- [구현 상세](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/IMPLEMENTATION.md)
+- [로드맵](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/ROADMAP.md)
+- [배포 가이드](https://github.com/octxxiii/Anti-ADHD/blob/main/docs/DEPLOYMENT.md)
 
 ### 개발 정보
 
