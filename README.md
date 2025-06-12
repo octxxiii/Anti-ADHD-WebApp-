@@ -175,9 +175,24 @@ graph TD
 ---
 
 ## 🖼 Screenshots
-| Dashboard | Calendar | Eisenhower Matrix | Pomodoro Timer | Team Chat | Settings |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Calendar%20Page.png) | ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Pomodoro.png) | ![](public/AntiADHD%20img/Chatting.png) | ![](public/AntiADHD%20img/Setting%20Page.png) |
+
+### Dashboard
+<img src="public/AntiADHD img/Dashboard.png.png" width="900" alt="Dashboard Screenshot" />
+
+### Calendar
+<img src="public/AntiADHD img/Calendar Page.png" width="900" alt="Calendar Screenshot" />
+
+### Eisenhower Matrix
+<img src="public/AntiADHD img/Matrix.png" width="900" alt="Matrix Screenshot" />
+
+### Pomodoro Timer
+<img src="public/AntiADHD img/Pomodoro.png" width="900" alt="Pomodoro Screenshot" />
+
+### Team Chat
+<img src="public/AntiADHD img/Chatting.png" width="900" alt="Chat Screenshot" />
+
+### Settings
+<img src="public/AntiADHD img/Setting Page.png" width="900" alt="Settings Screenshot" />
 
 ---
 
@@ -355,9 +370,24 @@ graph TD
 ---
 
 ## 🖼 스크린샷
-| 대시보드 | 캘린더 | 매트릭스 | 포모도로 타이머 | 팀 채팅 | 설정 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Calendar%20Page.png) | ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Pomodoro.png) | ![](public/AntiADHD%20img/Chatting.png) | ![](public/AntiADHD%20img/Setting%20Page.png) |
+
+### 대시보드
+<img src="public/AntiADHD img/Dashboard.png" width="900" alt="대시보드 스크린샷" />
+
+### 캘린더
+<img src="public/AntiADHD img/Calendar Page.png" width="900" alt="캘린더 스크린샷" />
+
+### 매트릭스
+<img src="public/AntiADHD img/Matrix.png" width="900" alt="매트릭스 스크린샷" />
+
+### 포모도로 타이머
+<img src="public/AntiADHD img/Pomodoro.png" width="900" alt="포모도로 스크린샷" />
+
+### 팀 채팅
+<img src="public/AntiADHD img/Chatting.png" width="900" alt="채팅 스크린샷" />
+
+### 설정
+<img src="public/AntiADHD img/Setting Page.png" width="900" alt="설정 스크린샷" />
 
 ---
 
