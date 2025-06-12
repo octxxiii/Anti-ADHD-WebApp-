@@ -177,7 +177,7 @@ graph TD
 ## 🖼 Screenshots
 
 ### Dashboard
-<img src="public/AntiADHD img/Dashboard.png.png" width="900" alt="Dashboard Screenshot" />
+<img src="public/AntiADHD img/Dashboard.png" width="900" alt="Dashboard Screenshot" />
 
 ### Calendar
 <img src="public/AntiADHD img/Calendar Page.png" width="900" alt="Calendar Screenshot" />
