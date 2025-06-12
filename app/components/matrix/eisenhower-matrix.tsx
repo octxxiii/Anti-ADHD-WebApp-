@@ -174,14 +174,14 @@ export default function EisenhowerMatrix({ project, updateProject, user }: Eisen
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-[80vh] overflow-y-auto">
         {quadrants.map((quadrant) => {
           const Icon = quadrant.icon
           const tasks = getTasksForQuadrant(quadrant.id)
 
           return (
-            <Card key={quadrant.id} className={`${quadrant.color} border-2`}>
-              <CardHeader className={`${quadrant.headerColor} text-white rounded-t-lg`}>
+            <Card key={quadrant.id} className={`${quadrant.color} border-2 flex flex-col min-h-0`}>
+              <CardHeader className={`${quadrant.headerColor} text-white rounded-t-lg flex-shrink-0`}>
                 <CardTitle className="flex items-center justify-between">
                   <div className="flex items-center space-x-2">
                     <Icon className="h-5 w-5" />
@@ -265,7 +265,7 @@ export default function EisenhowerMatrix({ project, updateProject, user }: Eisen
                   </Dialog>
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-4 min-h-[300px]">
+              <CardContent className="p-4 flex-1 min-h-0 overflow-y-auto">
                 <div className="space-y-3">
                   {tasks.map((task) => (
                     <div
