@@ -175,9 +175,9 @@ graph TD
 ---
 
 ## 🖼 Screenshots
-| Matrix View | Calendar | Team Chat |
-|:---:|:---:|:---:|
-| ![](docs/assets/screenshots/matrix.png) | ![](docs/assets/screenshots/calendar.png) | ![](docs/assets/screenshots/chat.png) |
+| Dashboard | Calendar | Eisenhower Matrix | Pomodoro Timer | Team Chat | Settings |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Calendar%20Page.png) | ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Pomodoro.png) | ![](public/AntiADHD%20img/Chatting.png) | ![](public/AntiADHD%20img/Setting%20Page.png) |
 
 ---
 
@@ -355,9 +355,9 @@ graph TD
 ---
 
 ## 🖼 스크린샷
-| 매트릭스 뷰 | 캘린더 | 팀 채팅 |
-|:---:|:---:|:---:|
-| ![](docs/assets/screenshots/matrix.png) | ![](docs/assets/screenshots/calendar.png) | ![](docs/assets/screenshots/chat.png) |
+| 대시보드 | 캘린더 | 매트릭스 | 포모도로 타이머 | 팀 채팅 | 설정 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Calendar%20Page.png) | ![](public/AntiADHD%20img/Dashboard.png) | ![](public/AntiADHD%20img/Pomodoro.png) | ![](public/AntiADHD%20img/Chatting.png) | ![](public/AntiADHD%20img/Setting%20Page.png) |
 
 ---
 
