@@ -257,18 +257,18 @@ ANTI-ADHD는 ADHD를 포함한 다양한 뇌 유형을 위한 현대적 생산�
 ---
 
 ## 📑 목차
-- [주요 기능](#주요-기능)
-- [라이브 데모](#라이브-데모)
-- [빠른 시작](#빠른-시작)
-- [아키텍처 개요](#아키텍처-개요)
-- [기술 스택](#기술-스택)
-- [스크린샷](#스크린샷)
-- [문서](#문서)
-- [보안](#보안)
-- [기여](#기여)
-- [변경내역](#변경내역)
-- [라이선스](#라이선스)
-- [연락처](#연락처)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Quick Start](#quick-start)
+- [Architecture Overview](#architecture-overview)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Documentation](#documentation)
+- [Security](#security)
+- [Contribution](#contribution)
+- [Changelog](#changelog)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
