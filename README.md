@@ -6,6 +6,9 @@
 <!-- Banner & Slogan -->
 <p align="center">
   <img src="docs/assets/app-preview.png" width="600" alt="AntiADHD App Preview">
+  <a href="https://buymeacoffee.com/octxxiii" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee">
+  </a>
 </p>
 
 # 🧠 ANTI-ADHD
@@ -175,9 +178,24 @@ graph TD
 ---
 
 ## 🖼 Screenshots
-| Matrix View | Calendar | Team Chat |
-|:---:|:---:|:---:|
-| ![](docs/assets/screenshots/matrix.png) | ![](docs/assets/screenshots/calendar.png) | ![](docs/assets/screenshots/chat.png) |
+
+### Dashboard
+<img src="public/AntiADHD img/Dashboard.png" width="900" alt="Dashboard Screenshot" />
+
+### Calendar
+<img src="public/AntiADHD img/Calendar Page.png" width="900" alt="Calendar Screenshot" />
+
+### Eisenhower Matrix
+<img src="public/AntiADHD img/Matrix.png" width="900" alt="Matrix Screenshot" />
+
+### Pomodoro Timer
+<img src="public/AntiADHD img/Pomodoro.png" width="900" alt="Pomodoro Screenshot" />
+
+### Team Chat
+<img src="public/AntiADHD img/Chatting.png" width="900" alt="Chat Screenshot" />
+
+### Settings
+<img src="public/AntiADHD img/Setting Page.png" width="900" alt="Settings Screenshot" />
 
 ---
 
@@ -295,18 +313,18 @@ ANTI-ADHD는 ADHD를 포함한 다양한 뇌 유형을 위한 현대적 생산�
 ---
 
 ## 📑 목차
-- [주요 기능](#주요-기능)
-- [라이브 데모](#라이브-데모)
-- [빠른 시작](#빠른-시작)
-- [아키텍처 개요](#아키텍처-개요)
-- [기술 스택](#기술-스택)
-- [스크린샷](#스크린샷)
-- [문서](#문서)
-- [보안](#보안)
-- [기여](#기여)
-- [변경내역](#변경내역)
-- [라이선스](#라이선스)
-- [연락처](#연락처)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Quick Start](#quick-start)
+- [Architecture Overview](#architecture-overview)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Documentation](#documentation)
+- [Security](#security)
+- [Contribution](#contribution)
+- [Changelog](#changelog)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -408,9 +426,24 @@ graph TD
 ---
 
 ## 🖼 스크린샷
-| 매트릭스 뷰 | 캘린더 | 팀 채팅 |
-|:---:|:---:|:---:|
-| ![](docs/assets/screenshots/matrix.png) | ![](docs/assets/screenshots/calendar.png) | ![](docs/assets/screenshots/chat.png) |
+
+### 대시보드
+<img src="public/AntiADHD img/Dashboard.png" width="900" alt="대시보드 스크린샷" />
+
+### 캘린더
+<img src="public/AntiADHD img/Calendar Page.png" width="900" alt="캘린더 스크린샷" />
+
+### 매트릭스
+<img src="public/AntiADHD img/Matrix.png" width="900" alt="매트릭스 스크린샷" />
+
+### 포모도로 타이머
+<img src="public/AntiADHD img/Pomodoro.png" width="900" alt="포모도로 스크린샷" />
+
+### 팀 채팅
+<img src="public/AntiADHD img/Chatting.png" width="900" alt="채팅 스크린샷" />
+
+### 설정
+<img src="public/AntiADHD img/Setting Page.png" width="900" alt="설정 스크린샷" />
 
 ---
 

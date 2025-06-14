@@ -13,7 +13,7 @@ export default function ProjectsPage() {
       color: "from-pink-400 to-purple-500",
       tasks: 12,
       completed: 9,
-      deadline: "2024-12-20",
+      deadline: "2025-06-20",
       priority: "high",
     },
     {
@@ -22,7 +22,7 @@ export default function ProjectsPage() {
       color: "from-blue-400 to-cyan-500",
       tasks: 10,
       completed: 4,
-      deadline: "2024-12-31",
+      deadline: "2025-07-01",
       priority: "medium",
     },
     {
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
       color: "from-yellow-400 to-orange-500",
       tasks: 8,
       completed: 2,
-      deadline: "2025-03-01",
+      deadline: "2025-07-15",
       priority: "low",
     },
     {
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
       color: "from-purple-400 to-indigo-500",
       tasks: 5,
       completed: 4,
-      deadline: "2024-12-15",
+      deadline: "2025-06-13",
       priority: "medium",
     },
     {
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
       color: "from-teal-400 to-green-500",
       tasks: 15,
       completed: 2,
-      deadline: "2025-01-15",
+      deadline: "2025-06-27",
       priority: "high",
     },
   ]
