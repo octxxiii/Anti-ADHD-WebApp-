@@ -4,6 +4,8 @@ import { useState, useEffect } from "react"
 import AuthFlow from "./components/auth/auth-flow"
 import Dashboard from "./components/dashboard"
 import { ThemeProvider } from "./components/theme-provider"
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
 
 interface User {
   id: string
@@ -179,15 +181,17 @@ export default function TeamCollaborationApp() {
 
   return (
     <ThemeProvider>
-      <Dashboard
-        user={user!}
-        isAnonymous={isAnonymous}
-        projects={projects}
-        setProjects={setProjects}
-        currentProjectId={currentProjectId}
-        setCurrentProjectId={setCurrentProjectId}
-        onLogout={handleLogout}
-      />
+      <DndProvider backend={HTML5Backend}>
+        <Dashboard
+          user={user!}
+          isAnonymous={isAnonymous}
+          projects={projects}
+          setProjects={setProjects}
+          currentProjectId={currentProjectId}
+          setCurrentProjectId={setCurrentProjectId}
+          onLogout={handleLogout}
+        />
+      </DndProvider>
     </ThemeProvider>
   )
 }
